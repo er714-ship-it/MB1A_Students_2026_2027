@@ -1,0 +1,23 @@
+---
+title: "hpa_quatro"
+author: "Euan Richardson"
+format: html
+---
+I am answering the question which species, mouse, pig or human has the highest number of genes with regionally elevated expression.
+
+Human
+```{r}
+total_elevated_human <- sum(180 + 83 + 57 + 110)
+print(total_elevated_human)
+```
+Pig
+```{r}
+total_elevated_pig <- sum(109 + 157 + 31 + 45)
+print(total_elevated_pig)
+```
+Mouse 
+```{r}
+total_elevated_mouse <- sum(55 + 185 + 60 + 98)
+print(total_elevated_mouse)
+```
+The highest number of genes with regionally elevated expression was 430 in humans.
