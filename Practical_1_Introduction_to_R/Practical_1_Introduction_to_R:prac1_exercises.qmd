@@ -1,0 +1,44 @@
+---
+title: "Practical 1 Part 3"
+author: "Euan Richardson"
+format: html
+---
+```{r}
+sqrt(9)
+```
+```{r}
+round(3.14159)
+```
+```{r}
+round(3.14159, digits =2)
+```
+```{r}
+seq(2,62,3)
+seq(from=0,by=9,to=81)
+```
+```{r}
+print(rep(5,7))
+print(rep(x=5,times=7))
+```
+```{r}
+x <- 10
+y <- "Hadestown"
+z <- FALSE
+print(x)
+print(y)
+print(z)
+print(class(x))
+print(class(y))
+print(class(z))
+```
+```{r}
+cell_id_1 <- "CX1"
+cell_id_1 <- "CX2"
+cell1_treated <- TRUE
+cell2_treated <- FALSE
+live_cells_before_1 <- 5415
+live_cells_before_2 <- 8123
+live_cells_after_1 <- 1432
+live_cells_after_2 <- 7543
+```
+
